@@ -1,0 +1,43 @@
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Spaziatura tra input e bottone */
+  margin: 20px 0;
+}
+
+.search-bar-input {
+  width: 50%;
+  max-width: 400px;
+  min-width: 250px;
+  padding: 10px 15px;
+  border: 2px solid #4caf50; /* Colore verde per richiamare il tema vegetariano */
+  border-radius: 25px; /* Bordo arrotondato */
+  font-size: 16px;
+  outline: none; /* Rimuove il bordo di default */
+  transition: border-color 0.3s ease;
+}
+
+.search-bar-input:focus {
+  border-color: #2e7d32; /* Colore più scuro per il focus */
+}
+
+.search-bar-button {
+  background-color: #4caf50; /* Verde per richiamare il tema */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-bar-button:hover {
+  background-color: #2e7d32; /* Scuro al passaggio del mouse */
+  transform: scale(1.05); /* Leggero ingrandimento */
+}
+
+.search-bar-button:active {
+  transform: scale(1); /* Rimuove l'effetto hover quando cliccato */
+}

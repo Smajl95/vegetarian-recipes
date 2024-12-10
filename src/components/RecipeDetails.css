@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Stile per coprire tutto lo sfondo */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #9ffb97, #bafcb4);
+}
+
+/* Contenitore centrale */
+.recipe-details {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #bafcb4; /* Sfondo bianco per il contenuto */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(5, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Immagine della ricetta */
+.recipe-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Titolo */
+.recipe-details h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #020202;
+  background-color: #ff6347;
+  width: 100%;
+}
+
+/* Testo */
+.recipe-details p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #050404;
+}
+
+/* Bottone */
+button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px; /* Angoli arrotondati */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Animazione morbida */
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ff4500;
+  transform: scale(1.05); /* Effetto di ingrandimento */
+}
+
+button:active {
+  background-color: #e03e00;
+  transform: scale(0.95); /* Effetto di riduzione */
+}
+
+button:hover {
+  background-color: #ff4500; /* Colore più scuro al passaggio del mouse */
+  transform: scale(1.05); /* Leggera ingranditura */
+}
+
+button:active {
+  background-color: #e03e00; /* Colore ancora più scuro durante il click */
+  transform: scale(0.95); /* Leggera riduzione durante il click */
+}
+/* Lista degli ingredienti senza puntini */
+.recipe-details ul {
+  list-style-type: none; /* Rimuove i puntini */
+  padding: 0; /* Rimuove il padding predefinito */
+}
+
+.recipe-details ul li {
+  margin-bottom: 0.5rem; /* Aggiunge uno spazio tra gli elementi della lista */
+  font-size: 1rem;
+  color: #060505;
+}
