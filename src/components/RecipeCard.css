@@ -12,9 +12,9 @@
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 100%; /* Assicura che la card occupi il 100% della colonna */
-  max-width: 300px; /* Imposta un massimo per non farle diventare troppo grandi */
-  margin: 0 auto; /* Centra le card dentro il loro contenitore */
+  width: 100%; 
+  max-width: 300px; 
+  margin: 0 auto; 
 }
 
 

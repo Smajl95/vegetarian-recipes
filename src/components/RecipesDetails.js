@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router-dom"; // Importa `useNavigate`
+import { useParams, useNavigate } from "react-router-dom"; 
 import { fetchRecipeDetails } from "../services/recipesAPI";
 import "./RecipeDetails.css";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Aggiungi questa riga
+import { useNavigate } from "react-router-dom"; 
 import "./RecipeCard.css";
 
 function RecipeCard({ id, title, image }) {
